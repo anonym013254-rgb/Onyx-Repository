@@ -1,52 +1,58 @@
 {
-  "name": "Nuvio German Providers Repository",
-  "version": "1.0.0",
-  "description": "Deutsche Streaming-Provider und Scraper für die Nuvio App (AniWorld, Moflix, Einschalten, FilmFrei24)",
-  "author": "Community",
-  "scrapers": [
-    {
-      "id": "aniworld",
-      "name": "AniWorld (DE)",
-      "description": "Anime Streams mit deutscher Synchro & Sub",
-      "version": "1.0.0",
-      "author": "Nuvio German Repo",
-      "formats": ["m3u8", "mp4"],
-      "logo": "https://aniworld.to/favicon.ico",
-      "contentLanguage": ["de"],
-      "types": ["anime", "series"]
-    },
-    {
-      "id": "moflix",
-      "name": "Moflix (DE)",
-      "description": "Filme und Serien auf Deutsch",
-      "version": "1.0.0",
-      "author": "Nuvio German Repo",
-      "formats": ["m3u8", "mp4"],
-      "logo": "https://moflix-stream.xyz/favicon.ico",
-      "contentLanguage": ["de"],
-      "types": ["movie", "series"]
-    },
-    {
-      "id": "einschalten",
-      "name": "Einschalten (DE)",
-      "description": "Deutsche Film- und Serienstreams",
-      "version": "1.0.0",
-      "author": "Nuvio German Repo",
-      "formats": ["m3u8", "mp4"],
-      "logo": "https://einschalten.to/favicon.ico",
-      "contentLanguage": ["de"],
-      "types": ["movie", "series"]
-    },
-    {
-      "id": "filmfrei24",
-      "name": "FilmFrei24 (DE)",
-      "description": "HD Filme und Serien Streams",
-      "version": "1.0.0",
-      "author": "Nuvio German Repo",
-      "formats": ["m3u8", "mp4"],
-      "logo": "https://filmfrei24.net/favicon.ico",
-      "contentLanguage": ["de"],
-      "types": ["movie", "series"]
-    }
-  ]
+  "name": "Nuvio German Providers Repository",
+  "version": "1.0.0",
+  "description": "Deutsche Streaming-Provider und Scraper für die Nuvio App (AniWorld, Moflix, Einschalten, FilmFrei24)",
+  "author": "Community",
+  "scrapers": [
+    {
+      "id": "aniworld",
+      "name": "AniWorld (DE)",
+      "filename": "providers/aniworld.js",
+      "description": "Anime Streams mit deutscher Synchro & Sub",
+      "version": "1.0.0",
+      "author": "Nuvio German Repo",
+      "formats": ["m3u8", "mp4"],
+      "logo": "https://aniworld.to/favicon.ico",
+      "contentLanguage": ["de"],
+      "types": ["anime", "series"]
+    },
+    {
+      "id": "moflix",
+      "name": "Moflix (DE)",
+      "filename": "providers/moflix.js",
+      "description": "Filme und Serien auf Deutsch",
+      "version": "1.0.0",
+      "author": "Nuvio German Repo",
+      "formats": ["m3u8", "mp4"],
+      "logo": "https://moflix-stream.xyz/favicon.ico",
+      "contentLanguage": ["de"],
+      "types": ["movie", "series"]
+    },
+    {
+      "id": "einschalten",
+      "name": "Einschalten (DE)",
+      "filename": "providers/einschalten.js",
+      "description": "Deutsche Film- und Serienstreams",
+      "version": "1.0.0",
+      "author": "Nuvio German Repo",
+      "formats": ["m3u8", "mp4"],
+      "logo": "https://einschalten.to/favicon.ico",
+      "contentLanguage": ["de"],
+      "types": ["movie", "series"]
+    },
+    {
+      "id": "filmfrei24",
+      "name": "FilmFrei24 (DE)",
+      "filename": "providers/filmfrei24.js",
+      "description": "HD Filme und Serien Streams",
+      "version": "1.0.0",
+      "author": "Nuvio German Repo",
+      "formats": ["m3u8", "mp4"],
+      "logo": "https://filmfrei24.net/favicon.ico",
+      "contentLanguage": ["de"],
+      "types": ["movie", "series"]
+    }
+  ]
 }
+
+
