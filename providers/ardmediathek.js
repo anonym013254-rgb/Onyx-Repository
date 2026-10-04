@@ -4,7 +4,7 @@
  */
 
 var CONFIG = {
-  TMDB_API_KEY: 'DEIN_TMDB_API_KEY',
+  TMDB_API_KEY: '3c9151b3bb0c7216862ad556466b3ccb',
   // Endpunkte als Templates: {q} = Suchbegriff, {id} = Item-ID
   SEARCH_URL: 'https://api.ardmediathek.de/page-gateway/widgets/ard/search/vod?searchString={q}&pageSize=12',
   ITEM_URL: 'https://api.ardmediathek.de/page-gateway/pages/ard/item/{id}?devicetype=pc&embedded=true',
