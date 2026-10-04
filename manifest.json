@@ -1,0 +1,34 @@
+{
+  "name": "Legale Quellen (Mediathek & Archive)",
+  "version": "1.0.0",
+  "description": "Nuvio Local Scrapers ohne Debrid für legale, frei zugängliche Quellen",
+  "author": "Eigenes Repo",
+  "scrapers": [
+    {
+      "id": "internetarchive",
+      "name": "Internet Archive",
+      "description": "Gemeinfreie Filme aus dem Internet Archive (nur Filme)",
+      "version": "1.0.0",
+      "author": "Eigenes Repo",
+      "supportedTypes": ["movie"],
+      "filename": "providers/internetarchive.js",
+      "enabled": true,
+      "formats": ["mp4"],
+      "logo": "https://archive.org/images/glogo.jpg",
+      "contentLanguage": ["en", "de"]
+    },
+    {
+      "id": "ardmediathek",
+      "name": "ARD Mediathek",
+      "description": "Filme und Serien aus der ARD Mediathek (Titelsuche, zeitlich begrenzt verfügbar)",
+      "version": "1.0.0",
+      "author": "Eigenes Repo",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/ardmediathek.js",
+      "enabled": true,
+      "formats": ["m3u8", "mp4"],
+      "logo": "https://www.ardmediathek.de/favicon.ico",
+      "contentLanguage": ["de"]
+    }
+  ]
+}
