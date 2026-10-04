@@ -1,7 +1,7 @@
 {
-  "name": "Legale Quellen (Mediathek & Archive)",
+  "name": "Onyx Repository",
   "version": "1.0.0",
-  "description": "Nuvio Local Scrapers ohne Debrid für legale, frei zugängliche Quellen",
+  "description": "Nuvio Local Scrapers ohne Debrid",
   "author": "Eigenes Repo",
   "scrapers": [
     {
@@ -15,6 +15,19 @@
       "enabled": true,
       "formats": ["mp4"],
       "logo": "https://archive.org/images/glogo.jpg",
+      "contentLanguage": ["en", "de"]
+    },
+    {
+      "id": "moflix",
+      "name": "Moflix",
+      "description": "Gemeinfreie Filme aus dem Internet Archive (nur Filme)",
+      "version": "1.0.0",
+      "author": "Eigenes Repo",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/internetarchive.js",
+      "enabled": true,
+      "formats": ["mp4"],
+      "logo": "https://moflix-stream.xyz/favicon/icon-192x192.png",
       "contentLanguage": ["en", "de"]
     },
     {
